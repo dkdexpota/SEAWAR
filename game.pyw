@@ -167,6 +167,9 @@ while g!=4:
         g+=1
         c[x][y]=1
 
+for i in range(12):
+    print(c[i])
+
 
 root=Tk()
 display_text=StringVar()
